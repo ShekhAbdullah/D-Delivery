@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce",
+  "name": "d-delivery",
   "version": "1.0.0",
   "description": "",
   "main": "backend/server.js",
@@ -8,12 +8,21 @@
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShekhAbdullah/D-Delivery.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShekhAbdullah/D-Delivery/issues"
+  },
+  "homepage": "https://github.com/ShekhAbdullah/D-Delivery#readme",
   "dependencies": {
     "body-parser": "^1.19.1",
-    "dotenv": "^10.0.0",
+    "dotenv": "^11.0.0",
     "express": "^4.17.2",
-    "mongoose": "^6.1.6"
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15"
   }
 }
