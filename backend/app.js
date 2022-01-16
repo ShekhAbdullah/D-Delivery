@@ -1,11 +1,12 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser")
+const cookieParser = require("cookie-parser");
 const errorMiddleware = require("./middleware/error");
 
 
 
-
+app.use(cookieParser());
 app.use(express.json());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
