@@ -1,2 +1,4 @@
 /node_modules
-.env
+
+# misc
+/backend/config/config.env
