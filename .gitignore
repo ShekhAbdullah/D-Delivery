@@ -2,3 +2,5 @@
 
 # misc
 /backend/config/config.env
+
+*.config
